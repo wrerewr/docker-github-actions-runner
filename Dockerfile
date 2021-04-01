@@ -22,3 +22,4 @@ RUN chmod +x /token.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["/actions-runner/bin/runsvc.sh"]
+ 
